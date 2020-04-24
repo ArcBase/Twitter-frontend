@@ -1,0 +1,17 @@
+@media (max-width: 380px) {
+  .sidebarDiv {
+    position: relative;
+    padding: 2px 2px 2px 2px;
+    overflow: hidden;
+  }
+  .sidebar {
+    margin: 50px 0px;
+    text-align: center;
+  }
+  .nav-text {
+    display: none;
+  }
+  .tweetButtonDiv {
+    display: none;
+  }
+}

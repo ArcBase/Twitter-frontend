@@ -1,0 +1,138 @@
+body,
+html {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  overflow: hidden;
+}
+.container {
+  margin: 20px auto 0 auto;
+  max-width: 1200px;
+}
+.nav-container {
+  margin: auto;
+  width: "100%";
+  position: "absolute";
+}
+.settingsIcon:hover {
+  cursor: pointer;
+}
+p,
+a,
+h3 {
+  color: white;
+  text-decoration: none;
+}
+svg {
+  height: 20px;
+  width: 20px;
+  fill: #1da1f2;
+  margin-bottom: 5px;
+}
+hr {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+.homediv {
+  cursor: pointer;
+}
+/*--explore--*/
+.t-logo {
+  display: none;
+}
+/*--explore--*/
+
+/*--explore--*/
+/*--explore--*/
+
+/*--responsive--*/
+@media (max-width: 380px) {
+ 
+
+  /*--explore page--*/
+  .explore {
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    margin: 50px auto 10px auto;
+    border-radius: 25px;
+    text-align: center;
+  }
+  .loginRedirect,
+  .signupRedirect {
+    width: 200px;
+  }
+  .logindiv {
+    margin-bottom: 10px;
+  }
+  .signupdiv {
+    margin-bottom: 10px;
+  }
+  .t-logo {
+    display: block;
+    width: 80%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto;
+  }
+  .t-logo img {
+    width: 75px;
+    height: 75px;
+    margin: 0px 30%;
+  }
+  /*--explore page--*/
+
+  /*--home page--*/
+  .home-home-164 {
+    display: none;
+  }
+  .homediv {
+    margin: 5px 60% 5px 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .home-intro-162 {
+    display: none;
+  }
+  .homebar {
+    padding: 10px 5px 5px 5px;
+    color: white;
+    display: flex;
+  }
+  .tweetButton {
+    border-radius: 25px;
+    text-transform: none;
+    margin-bottom: 15px;
+    margin-left: 55%;
+  }
+  /*--home page--*/
+
+  /*--login--*/
+  .loginForm {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+  /*--login--*/
+
+  /*--sidebar--*/
+  /*--sidebar--*/
+
+  /*--sidebar--*/
+  /*--sidebar--*/
+
+  /*--sidebar--*/
+  /*--sidebar--*/
+
+  /*--sidebar--*/
+  /*--sidebar--*/
+
+  /*--sidebar--*/
+  /*--sidebar--*/
+
+  /*--sidebar--*/
+  /*--sidebar--*/
+
+  /*--sidebar--*/
+  /*--sidebar--*/
+}
